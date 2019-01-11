@@ -14,7 +14,7 @@ b1 = np.arange(20)
 print("b1:",b1)
 print("b1[-9:16:1] = ", b1[-9:16:1])
 '''
-
+'''
 x = np.array([[0,1,2,3,4,5],
               [6,7,8,9,10,11],
               [12,13,14,15,16,17],
@@ -26,7 +26,7 @@ x = np.array([[0,1,2,3,4,5],
 #print(x[0,3:5])
 #print(x[4:, 4:])
 print(x[1::2,::2])
-
+'''
 
 
 '''
@@ -36,7 +36,7 @@ result = np.char.join('*',teststring)
 print(b)
 '''
 
-#n_arr0 = [2,3,4]
+#in_arr0 = [2,3,4]
 '''
 a = np.arange(12)
 result = np.char.join('*',teststring)
@@ -101,3 +101,4 @@ result = np.char.upper(teststring)
 print(result)
 result = np.char.count('i',teststring)
 print(result)
+result = np.char.join('-',teststring)
