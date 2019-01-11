@@ -119,3 +119,7 @@ a = np.char.greater('test','cat')
 print(a)
 
 '''
+A = np.array([[6,1,1],[4,-2,5],[2,8,7]]) 
+print(A)
+print("RANK of A: ", np.linalg.matrix_rank(A))
+print("Matrix A raised to the power 2 ", np.linalg.matrix_power(A,2))
