@@ -94,15 +94,10 @@ print(out_arr)
 print(out_arr)
 out_arr = np.bitwise_or(in_arr0,in_arr1)
 print(out_arr)
-'''
-'''
-#result = np.char.join('-',teststring)
-'''
-'''
 in_arr = [0,math.pi,np.pi,math.pi/2,np.pi/2]
 print(in_arr)
 '''
-#print("EIgen value c:",c)
+
 '''
 
 print("EIgen value c:",c)
@@ -121,7 +116,8 @@ print(tan_value)
 print("EIgen value c:",c)
 '''
 
-'''result = np.char.join('-',teststring)
+'''
+result = np.char.join('-',teststring)
 tesresult = np.char.join('-',teststring)"
 resresult = np.char.join('-',teststring)sep = 'i')
 priresult = np.char.join('-',teststring)
@@ -131,7 +127,7 @@ result = np.char.upper(teststring)
 print(result)
 print("EIgen value c:",c)
 '''
-#print("EIgen value c:",c)
+
 '''
 print("EIgen value c:",c)
 a = np.array(['Aishwarya','Ruchita','Panna','Preksha','Tejaswini'])
@@ -150,6 +146,7 @@ a = np.char.greater('test','cat')
 print(a)
 
 '''
+
 '''
 A = np.array([[6,1,1],[4,-2,5],[2,8,7]]) 
 print(A)
@@ -157,6 +154,7 @@ print("RANK of A: ", np.linalg.matrix_rank(A))
 print("Matrix A raised to the power 2 ", np.linalg.matrix_power(A,2))
 
 '''
+
 '''
 from numpy import linalg as geek
 a = np.array([[1,-2j],[2j,5]])
@@ -173,4 +171,17 @@ a = np.array([[1,2],[3,4]])
 b = np.array([8,18])
 x = np.linalg.solve(a,b)
 print(x)
+
 '''
+import matplotlib.pyplot as plt
+
+x = np.arange(0, 9)
+A = np.array([x, np.ones(9)])
+
+y = [19,20,20.5,21.5,22,23,23,25.5,24]
+w = np.linalg.lstsq(A.T, y)[0]
+line = w[0]*x + w[1]
+
+plt.plot(x,line,'r-')
+plt.plot(x,y,'o')
+plt.show()
