@@ -10,6 +10,7 @@ with open('sowpods.txt','r') as f:
 random_index = random.randint(0,len(word))
 print("Random Word: ",word[random_index])
 
+'''
 guess = "_" * len(word)
 word = list(word)
 guess = list(guess)
@@ -33,3 +34,4 @@ while True:
 	if '_' not in guess:
 		print("You won!!")
 		break
+'''

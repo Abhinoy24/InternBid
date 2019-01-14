@@ -7,11 +7,17 @@ a = np.array(list)
 a1 = np.array(list1)
 print("a*a1:",a*a1)
 b = np.arange(10,1,-2)
+print()
 print("b:", b)
+print()
 newarr = b[np.array([4,1,2])]
+print()
 print("newarr:",newarr)
+print()
 b1 = np.arange(20)
+print()
 print("b1:",b1)
+print()
 print("b1[-9:16:1] = ", b1[-9:16:1])
 '''
 #print("EIgen value c:",c)
@@ -19,9 +25,13 @@ print("b1[-9:16:1] = ", b1[-9:16:1])
 print("EIgen value c:",c)
 x = np.array([[0,1,2,3,4,5],
 print("EIgen value c:",c)
+print()
               [6,7,8,9,10,11],
+print()
 print("EIgen value c:",c)
+print()
               [12,13,14,15,16,17],
+print()
 print("EIgen value c:",c)
               [18,19,20,21,22,23],result = np.char.join('-',teststring)
 print("EIgen value c:",c)
@@ -43,6 +53,7 @@ print(x[1::2,::2])
 
 
 '''
+print()
 b = np.array([[[1, 2, 3],[4, 5, 6]],
               [[7, 8, 9],[10, 11, 12]]])
 result = np.char.join('*',teststring)
@@ -58,6 +69,7 @@ print(a)
 result = np.char.join('*',teststring)
 a = a.reshape(3,4)
 result = np.char.join('*',teststring)
+print()
 print(a)
 
 for i in np.nditer(a,flags = ['external_loop'], order = 'C'):
@@ -67,8 +79,10 @@ for i in np.nditer(a,flags = ['external_loop'], order = 'C'):
 '''
 in_num0 = 10
 in_arr0 = [2,3,4]
+print()
 print("EIgen value c:",c)
 in_num1 = 11
+print()
 print("EIgen value c:",c)
 in_arr0 = [2,3,4]
 
@@ -244,8 +258,11 @@ print("Largest Element is : ", a.max())
 print("Row Wise Largest Element:",a.max(axis = 1))
 print("Column Wise Largest Element:",a.max(axis = 0))
 print("Sum of all Array ", a.sum())
+print()
 print("Cumulative Sum of each row ", a.cumsum(axis = 1))
+print()
 print("Cumulative Sum of each column ", a.cumsum(axis = 0))
+print()
 '''
 
 '''
@@ -253,10 +270,14 @@ a = np.array([[1,2],[3,4]])
 b = np.array([[5,6],[7,8]])
 
 print("Sum of Array: ", a+b)
+print()
 print("Multiplication of Array:", a*b)
+print()
 print("Matrix Multiplication: ", a.dot(b))
+print()
 
-a1 = np.array([0,1,2,3])
+a1 = np.array([0,1,2,3])print()
+
 print("Exponent of array elements:",np.exp(a1))
 print("Sine of array elements:",np.sin(a1))
 
@@ -278,6 +299,102 @@ values = [('Aroj',2019,9.8),('Abhik',2019,8.4),('Kiwi',2019,8.4),('Nima',2019,7.
 arr =np.array(values,dtype = dtypes)
 print(arr)
 print("Sorted Order w.r.t name:",np.sort(arr,order='name'))
+print()
 print("Sorted Order w.r.t Cgpa:",np.sort(arr,order='CGPA'))
+print()
 
 '''
+
+'''print()
+
+
+x,y = input("Enter the two value:").split()
+print("First Number is {} and Second Number is {}".format(x,y))
+print()
+print()
+print()
+print("Number of boys:",x)
+print()
+print("Number of Girls:",y)
+print()
+print()
+print()
+y = list(map(int, input("Enter a multiple values:").split()))
+print()
+print("List of Prices:",y)
+
+'''
+
+'''
+a = [1,2,3,4]
+print()
+try:
+    print("Second Element:%d",a[1])
+    print("Fifth Element:%d",a[4])
+except IndexError:
+    print("An Error Occured")
+'''
+
+'''
+def divide(x, y):
+    try:
+print()
+        result = x//y
+print()
+print()
+        print("ANSWER IS :",result)
+print()
+print()
+print()
+    except ZeroDivisionError:
+print()
+print()
+        print("Error Division of Zero")
+
+divide(1,2)
+divide(3,2)
+divide(1,0)
+
+'''
+
+'''
+def Merge(list1,list2):
+    check_list = list1 + list2
+    check_list.sort()
+    return(check_list)
+
+list1 = ['Abhinoy','Aishwarya','Vishal']
+list2 = ['Abhik','pradip','Nima']          
+new_list = Merge(list1,list2)
+print(new_list)
+
+'''
+'''
+
+import random
+
+list = [1,3,5,7,9,11,13,15,17,19]
+
+print("List before Shuffling:",end="")
+for i in range(0,len(list)):
+    print(list[i],end=" ")
+print("\r")
+
+print("List after Shuffling:",end=" ")
+random.shuffle(list)
+for i in range(0,len(list)):
+    print(list[i],end=" ")
+print("\r")
+
+'''
+def printcheckboard(n):
+    print("Checkboard Pattern:")
+    x = np.zeros((n,n), dtype = int)
+    x[1::2,::2] = 1
+    x[::2,1::2] = 1
+    for  i in range(n):
+        for j in range(n):
+            print(x[i][j],end=" ")
+        print()
+n = int(input("Enter the value of n???"))
+printcheckboard(n)
