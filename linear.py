@@ -205,6 +205,7 @@ print("Sorted Array:",c)
 
 '''
 
+'''
 a = np.array([9,3,2,4,5,1,6])
 b = np.array([8,4,5,6,1,2,7])
 
@@ -212,3 +213,27 @@ for(i,j) in zip(a,b):
     print(i,'',j)
 ind = np.lexsort((b,a))
 print(ind)
+
+'''
+
+'''
+a = np.array([[1,2],[3,4]])
+b = np.array([[5,6],[7,8]])
+
+print("Vertical Stacking :", np.vstack((a,b)))
+print("Horizontal Stacking:", np.hstack((a,b)))
+
+'''
+
+'''
+a = np.array([1,2,3,4,5,6])
+print("Adding 1 to each element :",a+1)
+print("Subtracting 2 from each element:",a-2)
+print("Mulitplying 2 with each element:",a*2)
+print("Squaring each element:",a**2)
+a*=2
+print("Modified Array:",a)
+b = np.array([[1,2],[3,4],[5,6]])
+print(b)
+print(b.T)
+'''
