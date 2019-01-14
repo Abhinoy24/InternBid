@@ -237,3 +237,47 @@ b = np.array([[1,2],[3,4],[5,6]])
 print(b)
 print(b.T)
 '''
+
+'''
+a = np.array([[1,3,5],[7,9,11],[13,15,17]])
+print("Largest Element is : ", a.max())
+print("Row Wise Largest Element:",a.max(axis = 1))
+print("Column Wise Largest Element:",a.max(axis = 0))
+print("Sum of all Array ", a.sum())
+print("Cumulative Sum of each row ", a.cumsum(axis = 1))
+print("Cumulative Sum of each column ", a.cumsum(axis = 0))
+'''
+
+'''
+a = np.array([[1,2],[3,4]])
+b = np.array([[5,6],[7,8]])
+
+print("Sum of Array: ", a+b)
+print("Multiplication of Array:", a*b)
+print("Matrix Multiplication: ", a.dot(b))
+
+a1 = np.array([0,1,2,3])
+print("Exponent of array elements:",np.exp(a1))
+print("Sine of array elements:",np.sin(a1))
+
+'''
+
+'''
+a = np.array([[1,3,2],[-1,0,5],[6,9,10]])
+print(a)
+print("Sorted array:", np.sort(a,axis=None))
+print("Row Wise SOrted Array: ", np.sort(a,axis=1))
+print("Column Wise SOrted Array: ", np.sort(a,axis=0,kind='MergerSort'))
+
+'''
+
+'''
+dtypes = [('name','S10'),('grad_year',int),('CGPA',float)]
+values = [('Aroj',2019,9.8),('Abhik',2019,8.4),('Kiwi',2019,8.4),('Nima',2019,7.5)]
+
+arr =np.array(values,dtype = dtypes)
+print(arr)
+print("Sorted Order w.r.t name:",np.sort(arr,order='name'))
+print("Sorted Order w.r.t Cgpa:",np.sort(arr,order='CGPA'))
+
+'''
