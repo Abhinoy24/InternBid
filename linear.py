@@ -171,6 +171,8 @@ a = np.array([[1,2],[3,4]])
 b = np.array([8,18])
 x = np.linalg.solve(a,b)
 print(x)
+'''
+
 
 '''
 import matplotlib.pyplot as plt
@@ -185,3 +187,28 @@ line = w[0]*x + w[1]
 plt.plot(x,line,'r-')
 plt.plot(x,y,'o')
 plt.show()
+
+'''
+
+'''
+
+a = np.array([9,3,14,5,6,7])
+print("Original Array:",a)
+
+b = np.argsort(a)
+print("Sorted array:",b)
+
+c = np.zeros(len(b),dtype = int)
+for i in range(0,len(b)):
+    c[i] = a[b[i]]
+print("Sorted Array:",c) 
+
+'''
+
+a = np.array([9,3,2,4,5,1,6])
+b = np.array([8,4,5,6,1,2,7])
+
+for(i,j) in zip(a,b):
+    print(i,'',j)
+ind = np.lexsort((b,a))
+print(ind)
