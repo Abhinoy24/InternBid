@@ -122,7 +122,7 @@ print(data)
 print(data.isna())
 '''
 
-data = pd.read_csv("employees.csv")
+#data = pd.read_csv("employees.csv")
 
 '''
 print(data)
@@ -182,6 +182,8 @@ x = datetime.now()
 print(x.month,x.year)
 '''
 
+'''
+
 data = {'Name':['Abhik','Kiwi','Paras','Anil'],
         'Age':[21,22,24,25],
         'Height':[5.1,5.2,5.5,5.6]}
@@ -199,7 +201,7 @@ print(df,"\n\n", df1)
 frames = [df,df1]
 res = pd.concat(frames,keys=['x','y'])
 print("\n",res)
-
+'''
 
 #res1 = pd.concat([df,df1],axis = 1,join="inner")
 #print("\n",res1)
@@ -209,3 +211,39 @@ print("\n",res)
 
 #res = df.append(df1)
 #print(res)
+
+'''
+series = pd.Series()
+print(series)
+
+series = pd.Series([1,2,3,4,5])
+print(series)
+'''
+'''
+data = pd.read_csv('nba.csv')
+x1 = data.ix[0:20,1:3]
+print(x1)
+'''
+'''
+Data = [1,2,3,4,5,6,7]
+a = pd.Series(Data)
+print(a)
+Index = ['a','b','c','d','e','f','g']
+a1 = pd.Series(Data, index = Index)
+print(a1)
+'''
+
+'''
+dict = {'a':1,'b':2,'c':3,'d':4,'e':5}
+series = pd.Series(dict)
+print(series)
+'''
+'''
+d1 = [[1,2,3],[4,5,6]]
+d2 = [[9,11,13],[15,17,19]]
+data = {'First':d1,'Second':d2}
+df = pd.DataFrame(data)
+print(df)
+'''
+data = pd.read_csv(filepath_or_buffer = "pokemon.csv")
+print(data['Type']=='Electric')
