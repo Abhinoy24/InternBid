@@ -149,6 +149,7 @@ print("New data frame:", len(new_data))
 print("NUmber of rows with atleast 1 NA:",len(data)-len(new_data))
 
 '''
+
 '''
 df = pd.DataFrame(data)
 #df["Name"] = df["Name"].str.lower()
@@ -162,7 +163,49 @@ filter = df["Age"] == "Twenty Two"
 df.where(filter).dropna()
 print(df)
 '''
+'''
+#regex
+s = pd.Series(['a1','b2','c3'])
+n = s.str.extract(r'([ab])(\d)')
+print(n)
 
-with open('PrimeNumber.txt','r') as op:
-    all_text = op.read()
-print(all_text)
+print()
+
+s = pd.Series(['b1','c2','d3'])
+n = s.str.extract(r'([cd])(\d)')
+print(n)
+'''
+'''
+data = pd.date_range('17/12/1996',periods=100,freq='Y')
+print(data)
+x = datetime.now()
+print(x.month,x.year)
+'''
+
+data = {'Name':['Abhik','Kiwi','Paras','Anil'],
+        'Age':[21,22,24,25],
+        'Height':[5.1,5.2,5.5,5.6]}
+
+data1 = {'Name':['Lucky','Nima','Janam','Kimba'],
+        'Age':[21,22,24,26],
+        'Salary':[25000,50000,55000,56000]}
+
+
+df = pd.DataFrame(data,index=[0,1,2,3])
+df1 = pd.DataFrame(data1, index = [4,1,2,7])
+print(df,"\n\n", df1)
+
+
+frames = [df,df1]
+res = pd.concat(frames,keys=['x','y'])
+print("\n",res)
+
+
+#res1 = pd.concat([df,df1],axis = 1,join="inner")
+#print("\n",res1)
+
+#res2 = pd.concat([df,df1],axis = 1,join="inner",sort=False)
+#print(res2)
+
+#res = df.append(df1)
+#print(res)

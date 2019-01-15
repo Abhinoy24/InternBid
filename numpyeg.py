@@ -32,9 +32,13 @@ print("EIgen value c:",c)
 print()
               [12,13,14,15,16,17],
 print()
-print("EIgen value c:",c)
-              [18,19,20,21,22,23],result = np.char.join('-',teststring)
-print("EIgen value c:",c)
+2    d    
+print("
+2    d    
+       
+2    d    in('-',teststring)
+print("
+2    d    
 print("EIgen value c:",c)
 print("EIgen value c:",c)
               [24,25,26,27,28,29],result = np.char.join('-',teststring)
@@ -56,6 +60,7 @@ print(x[1::2,::2])
 print()
 b = np.array([[[1, 2, 3],[4, 5, 6]],
               [[7, 8, 9],[10, 11, 12]]])
+2    d    
 result = np.char.join('*',teststring)
 print(b)
 '''
@@ -127,7 +132,7 @@ print(cos_value)
 print("EIgen value c:",c)
 print("EIgen value c:",c)
 print(tan_value)
-print("EIgen value c:",c)
+print("EIgen value c:",c)2    d    
 '''
 
 '''
@@ -140,6 +145,7 @@ print(result)
 result = np.char.upper(teststring)
 print(result)
 print("EIgen value c:",c)
+2    d    
 '''
 
 '''
@@ -186,6 +192,7 @@ b = np.array([8,18])
 x = np.linalg.solve(a,b)
 print(x)
 '''
+2    d    
 
 
 '''
@@ -201,13 +208,16 @@ line = w[0]*x + w[1]
 plt.plot(x,line,'r-')
 plt.plot(x,y,'o')
 plt.show()
+2    d    
 
 '''
 
 '''
 
-a = np.array([9,3,14,5,6,7])
-print("Original Array:",a)
+a = np.arr
+2    d    
+print("Ori
+2    d    
 
 b = np.argsort(a)
 print("Sorted array:",b)
@@ -240,9 +250,13 @@ print("Horizontal Stacking:", np.hstack((a,b)))
 '''
 
 '''
-a = np.array([1,2,3,4,5,6])
-print("Adding 1 to each element :",a+1)
-print("Subtracting 2 from each element:",a-2)
+2    d    
+a =
+2    d    
+pri
+2    d    
+pri
+2    d    
 print("Mulitplying 2 with each element:",a*2)
 print("Squaring each element:",a**2)
 a*=2
@@ -272,9 +286,13 @@ drop
 drop
 drop
 drop
-print()
-print("Matrix Multiplication: ", a.dot(b))
-print()
+2    d    
+prin
+2    d    
+prin
+2    d    
+prin
+2    d    
 
 a1 = np.array([0,1,2,3])print()
 
@@ -290,9 +308,10 @@ print("Sorted array:", np.sort(a,axis=None))
 print("Row Wise SOrted Array: ", np.sort(a,axis=1))
 print("Column Wise SOrted Array: ", np.sort(a,axis=0,kind='MergerSort'))
 
+2    d    
 '''
 
-
+'''
 dtypes = [('name',np.unicode_, 16),('grad_year',int),('CGPA',float)]
 values = [('Aroj',2019,9.8),('Abhik',2019,8.4),('Kiwi',2019,8.4),('Nima',2019,7.5)]
 
@@ -303,13 +322,13 @@ print("Sorted Order w.r.t name:",np.sort(arr,order='name'))
 print()
 print("Sorted Order w.r.t Cgpa:",np.sort(arr,order='CGPA'))
 print()
-
+'''
 
 '''
 print()drop
 
 
-x,y = inpudrop
+x,y = inpud2    d    
 print("First Number is {} and Second Number is {}".format(x,y))
 print()
 print()
@@ -325,9 +344,12 @@ print()
 print("List of Prices:",y)
 
 '''
+2    d    
 
 '''
-a = [1,2,3,4]
+2    d    
+a =
+2    d    
 print()
 try:
     print("Second Element:%d",a[1])
@@ -357,9 +379,12 @@ divide(3,2)
 divide(1,0)
 
 '''
+2    d    
 
 '''
-def Merge(list1,list2):
+2    d    
+def
+2    d    
     check_list = list1 + list2
     check_list.sort()
     return(check_list)
@@ -376,7 +401,7 @@ import random
 
 list = [1,3,5,[(b7,9,11,13,15,17,19]
 [(b
-print("List be[(bfore Shuffling:",end="")
+print("List be[(bfore Shuffling:",en2    d    
 for i in range[(b(0,len(list)):
     print(list[i],end=" ")
 print("\r")
@@ -396,9 +421,12 @@ def printcheckboard(n):
     x[::2,1::2] = 1
     for  i in range(n):
         for j in range(n):
-            print(x[i][j],end=" ")
+2    d    
+            print(x[i][j],
+2    d    
         print()
-n = int(input("Enter the value of n???"))
+n = int(input("Enter the v
+2    d    
 printcheckboard(n)
 
 '''
