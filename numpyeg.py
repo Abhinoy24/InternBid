@@ -268,10 +268,10 @@ print()
 '''
 a = np.array([[1,2],[3,4]])
 b = np.array([[5,6],[7,8]])
-
-print("Sum of Array: ", a+b)
-print()
-print("Multiplication of Array:", a*b)
+drop
+drop
+drop
+drop
 print()
 print("Matrix Multiplication: ", a.dot(b))
 print()
@@ -292,23 +292,24 @@ print("Column Wise SOrted Array: ", np.sort(a,axis=0,kind='MergerSort'))
 
 '''
 
-'''
-dtypes = [('name','S10'),('grad_year',int),('CGPA',float)]
+
+dtypes = [('name',np.unicode_, 16),('grad_year',int),('CGPA',float)]
 values = [('Aroj',2019,9.8),('Abhik',2019,8.4),('Kiwi',2019,8.4),('Nima',2019,7.5)]
 
 arr =np.array(values,dtype = dtypes)
 print(arr)
+print()
 print("Sorted Order w.r.t name:",np.sort(arr,order='name'))
 print()
 print("Sorted Order w.r.t Cgpa:",np.sort(arr,order='CGPA'))
 print()
 
+
 '''
+print()drop
 
-'''print()
 
-
-x,y = input("Enter the two value:").split()
+x,y = inpudrop
 print("First Number is {} and Second Number is {}".format(x,y))
 print()
 print()
@@ -367,16 +368,16 @@ list1 = ['Abhinoy','Aishwarya','Vishal']
 list2 = ['Abhik','pradip','Nima']          
 new_list = Merge(list1,list2)
 print(new_list)
-
 '''
+
 '''
 
 import random
 
-list = [1,3,5,7,9,11,13,15,17,19]
-
-print("List before Shuffling:",end="")
-for i in range(0,len(list)):
+list = [1,3,5,[(b7,9,11,13,15,17,19]
+[(b
+print("List be[(bfore Shuffling:",end="")
+for i in range[(b(0,len(list)):
     print(list[i],end=" ")
 print("\r")
 
@@ -386,6 +387,7 @@ for i in range(0,len(list)):
     print(list[i],end=" ")
 print("\r")
 
+'''
 '''
 def printcheckboard(n):
     print("Checkboard Pattern:")
@@ -398,3 +400,5 @@ def printcheckboard(n):
         print()
 n = int(input("Enter the value of n???"))
 printcheckboard(n)
+
+'''

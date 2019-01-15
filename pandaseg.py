@@ -1,4 +1,168 @@
 import pandas as pd 
+import numpy as np 
+'''
 lst = ['Bid','Ocean','Gangtok']
 df = pd.DataFrame(lst)
 print(df)
+'''
+'''
+data = {'Name':['Tom','Nick','Jerry','Aish'],
+        'Age':[17,18,19,20],
+        'Address':['DElhi','KAnpur','Mumbai','gANGTOK'],
+        'Qualification':['BTech','MBA','BBA','BCA']}
+
+df = pd.DataFrame(data)
+print(df)
+columns = list(df)
+for i in columns:
+    print("\n",df[i][2])
+'''
+
+'''
+#print(df[['Name','Age']])
+for i,j in df.iterrows():
+    print(i,' ',j)
+    print()
+'''
+
+'''
+#row2 = data.iloc[3
+data = pd.read_csv('nba.csv',index_col="Name")
+print(data.head)
+
+'''
+'''
+first = data.loc["Avery Bradley"]
+second = data.loc["R.J. Hunter"]
+
+print(first,"\n\n\n",second)
+
+row2 = data.iloc[4]
+
+print(row2)
+first = data["Age"]
+print(first)
+'''
+
+'''
+dict = {'First Score':[100,90,np.nan,95],
+        'Second Score':[30,45,56,np.nan],
+        'Third Score':[np.nan,np.nan,np.nan,98.0]}
+
+df = pd.DataFrame(dict)
+print(df.isnull())
+print(df.notnull())
+'''
+
+'''
+df = pd.DataFrame()
+print(df)
+'''
+'''
+data = {'Name':['Abhik','AIsh','Paras'],
+        'Age':[21,22,24],
+        'Height':[5.1,5.2,5.5]}
+df = pd.DataFrame(data)
+print(df)
+address = ['GAngtok','RAngpo','MAjitar']
+df['Address'] = address
+print(df)
+cgpa = [9.5,10,8.5]
+df['CGPA'] = cgpa
+print(df)
+'''
+
+'''
+data = pd.read_csv('nba.csv',index_col=None)
+print(data.head(5))
+#data.drop(["Team","Number","Position"],axis = 1,inplace =True)
+#print(data.head(10))
+new_row = pd.DataFrame({'Name':'KIWI','Team':'BTSV','Number':'17',
+                        'Position':'PG','Age':20.0,'Height':5-5,
+                        'Weight':130,'College':'SMIT','Salary':700000.0},index = [0])
+data = pd.concat([new_row,data]).reset_index(drop = True)
+print(data.head(5))
+
+'''
+
+'''
+data = pd.read_csv('nba.csv',index_col=None)
+first = data[["Name","Age","Height","Weight"]]
+print(first)
+row2 = data.iloc[[0,3,5,7]]
+print(row2)
+row1 = data.iloc[[0,3,5,7],[1,2,3,4]]
+print(row1)
+row2 = data.iloc[::2,[1,2]]
+print(row2)
+'''
+
+'''
+data = {'Name':['Abhik','AIsh','Paras'],
+        'Age':[21,22,24],
+        'Height':[5.1,5.2,5.5]}
+df = pd.DataFrame(data,index = [True,False,True])
+print(df.loc[True])
+print()
+print(df.iloc[1])
+#print(df.ix[True])
+'''
+
+'''
+#data = pd.read_csv("nba1.1.csv")
+data = pd.read_csv("nba.csv",index_col="Name")
+print(data)
+#df = pd.DataFrame(data, index = [0,1,2,3,4,5,6,7,8,9,10,11,12])
+#print(df[[True,False,True,False,True,False,True,False,True,False,True,False,True]])
+#print(data['Age'] > 25)
+#print(data[:10])
+#data.dropna(inplace = True)
+#print(data)
+#print(data.info())
+print(data.isna())
+'''
+
+data = pd.read_csv("employees.csv")
+
+'''
+print(data)
+df = pd.DataFrame(data)
+print(data)
+print()
+bool_series = pd.notnull(data["Gender"])
+print(bool_series.head(10))
+print(df.notnull())
+print(df.fillna(0))
+print()
+print(df.fillna(method='pad'))
+print(df.fillna(method='bfill'))
+data["Gender"].fillna("No Gender", inplace = True)
+print(data)
+'''
+
+'''
+new_data = data.dropna(axis = 0, how = 'any')
+print(new_data)
+
+print("Old data frame:", len(data))
+print("New data frame:", len(new_data))
+print("NUmber of rows with atleast 1 NA:",len(data)-len(new_data))
+
+'''
+'''
+df = pd.DataFrame(data)
+#df["Name"] = df["Name"].str.lower()
+#df["Gender"] = df["Gender"].str.upper()
+#print(df)
+#df["Gender"] = df["Gender"].str.split("a" or "e",n=1,expand = True)
+print(df)
+df["Age"] = df["Age"].replace(22.0, "Twenty Two")
+
+filter = df["Age"] == "Twenty Two"
+df.where(filter).dropna()
+print(df)
+'''
+
+with open('PrimeNumber.txt','r') as op:
+    all_text = op.read()
+print(all_text)

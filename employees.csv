@@ -1,0 +1,14 @@
+Name,Department,Manager,Salary,Gender,Age
+Robin Hood,ECE,Vishal,20000,Male,17
+Arsene Wenger,Bar,Friar Tuck,50,18
+Friar Tuck,Foo,Robin Hood,100,Female,19
+Little John,Foo,Robin Hood,100,Female,20
+Sam Allardyce,CSE,Lil Pump,250,Male,21
+Dimi Berbatov,Foo,Little John,50,Male,22
+Aishwarya,Civil,Eminem,19999,,22
+Kiwi,Civil,BTSV,200000,Female,20
+Vishal,CSE,AKON,250000,Male,21
+Aroj,CSE,Tanisha,250000,Male,21
+Pradip,CSE,,25000,,22
+Sandip,CSE,,26000,,22
+Nima,CSE,Monk,25000,Male,23
