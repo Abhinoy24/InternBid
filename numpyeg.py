@@ -191,9 +191,7 @@ a = np.array([[1,2],[3,4]])
 b = np.array([8,18])
 x = np.linalg.solve(a,b)
 print(x)
-'''
-2    d    
-
+'''   
 
 '''
 import matplotlib.pyplot as plt
@@ -344,7 +342,7 @@ print()
 print("List of Prices:",y)
 
 '''
-2    d    
+
 
 '''
 2    d    

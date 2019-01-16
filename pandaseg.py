@@ -245,5 +245,7 @@ data = {'First':d1,'Second':d2}
 df = pd.DataFrame(data)
 print(df)
 '''
+'''
 data = pd.read_csv(filepath_or_buffer = "pokemon.csv")
 print(data['Type']=='Electric')
+'''
