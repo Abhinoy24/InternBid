@@ -1,0 +1,500 @@
+Category,No of documents
+Aerial Construction,0.0
+Bridge Repair,8.0
+Bridge Work,6.0
+Building - Non-Residential,2.0
+Building - Residential,10.0
+Concrete & Masonry,64.0
+Cured-In-Place-Pipe (CIPP),19.0
+Directional Boring,1.0
+Electrical Work,31.0
+Environmental,7.0
+Excavation & Grading,58.0
+HVAC,17.0
+Jack and Bore,1.0
+Manhole Rehab,12.0
+Mechanical,14.0
+Microtunneling,0.0
+Pipe Bursting,0.0
+Pipe Lining,0.0
+Pipe Ramming,0.0
+Plant Work,4.0
+Plumbing,9.0
+Roads and Paving,51.0
+Service Connections,29.0
+Pipe Cleaning,15.0
+Pipe & Manhole Televising & Inspection,15.0
+Slip-Lining,0.0
+Trenching & Plowing,0.0
+Tunneling,0.0
+Pilings & Pile-Driving,3.0
+Pipeline,0.0
+Design-Build,4.0
+Engineering & Architectural,15.0
+Marine & Underwater Construction,1.0
+Telecom/IT - Outside Plant,4.0
+Gas Transmission,0.0
+Trucking & Hauling,5.0
+Water Well Drilling & Maint,0.0
+Boring/ Vertical,0.0
+Sewer,23.0
+Water Distribution,0.0
+Water Transmission,0.0
+Manhole Installation,13.0
+Design & Construction Consulting,5.0
+Fold & Form,0.0
+Sanitary Sewer,23.0
+Storm Sewer & Drainage,39.0
+Landscaping,11.0
+Irrigation,3.0
+Tank/ Storage,1.0
+Misc. Services,2.0
+Clearing & Grubbing,0.0
+Site Work,35.0
+Roofing,10.0
+School Const/Maint,14.0
+Landfill Work,0.0
+Dredging,0.0
+Fencing,7.0
+Building Renovation,36.0
+Painting & Wall Coverings,11.0
+Demolition,35.0
+Carpentry,5.0
+Boring/ Horizontal,2.0
+Vacuum & Air Excavating / Pumping,16.0
+Dam & Reservoir Const & Maint,3.0
+Pump/Lift Station-water/sewer,0.0
+Signage & Signalization,15.0
+Flooring,7.0
+Cable TV,0.0
+Broadband Internet,0.0
+Instrumentation,0.0
+Dewatering,0.0
+Surveying,2.0
+Airport Const. & Maint.,4.0
+Pipe Rehab,19.0
+Misc. Construction,0.0
+Erosion Control,16.0
+Gas Distribution,0.0
+Guard Rail Work,8.0
+Water Distrib. & Trans.,14.0
+Telecom/IT - Inside Work,5.0
+Pavement Marking,15.0
+Channel/Waterway Work,3.0
+Fire Protection Const. & Maint.,12.0
+Tower const. & maint.,1.0
+Railway Work,2.0
+Security Systems/Devices,3.0
+Const. Eqpt,1.0
+Utility Material Purchase,7.0
+Metal Fabrication/Machining/Welding,15.0
+Insulation,6.0
+Cathodic Protection,1.0
+Root Control,0.0
+Sand,7.0
+Generator/ Installation & Maintenance,0.0
+Pipe - HDPE/MDPE & Other Polyethylene,2.0
+Pipe - Ductile Iron,2.0
+Pipe - Steel,1.0
+Pipe - PVC,12.0
+Pipe - Concrete,6.0
+Cable - Data,1.0
+Smoke/Air/Dye Testing,4.0
+Coating - Industrial,1.0
+Lighting,15.0
+Misc. Goods,13.0
+Software & IT,18.0
+Janitorial,3.0
+Electrical Power Trans. & Dist.,1.0
+Rock Excavation & Blasting,1.0
+Sale of Const. Material,4.0
+Sale of Eqpt. & Vehicles,1.0
+Stone Masonry,4.0
+Bollard & Vehicle Security Barrier,6.0
+Financial Services,1.0
+Logging/ Tree Trimming/ Forestry,6.0
+Manhole Adjustment,5.0
+Pressure Grouting & Mud Jacking,1.0
+Construction Management,1.0
+By-Pass Pumping,12.0
+Pavement Patching & Sealing,19.0
+Pipe & Manhole Grouting,0.0
+Telecommunications Services,1.0
+Autos & Light Trucks,8.0
+Security Services,1.0
+Pest Control,1.0
+Zoo/ Aquarium & Museum Const. & Maint.,0.0
+Waste Disposal & Recycling,6.0
+Elevator / Escalator Installation & Maint.,8.0
+Door & Window Installation & Repair,12.0
+Lighting -LED,4.0
+Medical Supplies & Eqpt.,2.0
+Water Hydrant,0.0
+Sludge & Bio-Solids Disposal,0.0
+Shotcrete / Gunite,0.0
+Cement Mortar Lining,13.0
+Medical & Psych Services,3.0
+Printing,5.0
+Food Products & Services,9.0
+Playground Eqpt. & Supplies,1.0
+Sale of Misc. Surplus Goods,4.0
+Parts for Auto/ Truck & Light Eqpt. ,2.0
+Auto/ Truck & Eqpt. Repair Service,2.0
+Computer/ Software & IT Eqpt. & Supplies,8.0
+Office Supplies,2.0
+Education & Training Services,5.0
+Fuel & Lubricating Oil,4.0
+Office Equipment,1.0
+Closed Circuit TV Cameras (CCTV),1.0
+Pump,4.0
+Mining & Mine Reclamation,0.0
+Geotechnical Services,2.0
+Lumber & Building Material,2.0
+Legal Services,1.0
+Accounting & Book-keeping Service,1.0
+Concession Operation,2.0
+Drywall,3.0
+Modular & Pre-Fabricated Building,1.0
+Directional Boring - Large,1.0
+Agriculture/ Food & Farming,0.0
+Mining/ Mineral/ Oil & Gas Extraction,0.0
+Utility Services,1.0
+Manufacturing,0.0
+Wholesale Goods,0.0
+Retail Goods,0.0
+Shipping & Warehousing,3.0
+Information & Publishing Services,2.0
+Real Estate Wanted to Purchase,1.0
+Professional/ Scientific & Technical Services,18.0
+Organization Management,3.0
+Administrative & Support Services,7.0
+Arts & Entertainment Products & Services,2.0
+Accomodation & Lodging,0.0
+Public Administration,0.0
+Asphalt Milling,10.0
+Paper Goods,4.0
+Aircraft Repair,0.0
+Aircraft & Aircraft Parts,10.0
+Clothing/Materials/ Fabrics,2.0
+Laboratory & Scientific,1.0
+Water Craft Service & Repair,2.0
+Water Craft & Parts,1.0
+Police / Military Equipment & Supplies,1.0
+Furniture/ Non-Office,1.0
+Water Filter Rehab & Cleaning,0.0
+Pond/Pit Liner/ PVC or HDPE,0.0
+Free Stuff Available,0.0
+Real Estate for Sale/ Lease/ Rent or Trade,1.0
+Fuel Cell,0.0
+Grant Available,9.0
+Pipe - Clay,0.0
+"Pipe - Composite (CCFR,CCFRP, FRP, GRP, RPMP, cement-polymer)",0.0
+Radio Equipment,1.0
+Insurance,1.0
+Swimming Pool Const.,1.0
+Flow Monitoring,0.0
+Metal,8.0
+Rate Analysis & Studies,0.0
+Property Development,1.0
+Employment Agency / Screening,2.0
+Grout/Chemical,0.0
+Kitchen & Food Preparation Eqpt.,1.0
+Access Systems,10.0
+Chemicals,4.0
+Asbestos Abatement/Removal,4.0
+Office Furniture,4.0
+Pipe Cleaning & Televising Eqpt.,1.0
+"Boiler Cleaning, Maint. & Repair",0.0
+"Bleacher - Supply, Instal., Repair, Maint.",1.0
+Seeding,22.0
+Pipe - PVC Fusible/Restrained Joint,1.0
+Mobile Vehicle Data & Tracking Systems,3.0
+Pressure Washing,1.0
+Sweeping,2.0
+Wind Energy,0.0
+Solar Energy,1.0
+Safety & First Aid Eqpt. ,1.0
+Small Works,0.0
+Reverse Osmosis Systems,0.0
+Portable Toilet,1.0
+Advertising & Marketing,6.0
+Concrete & Masonry Repair,12.0
+Herbicide/Pesticide/Fertilizer ,10.0
+Facilities Maintenance & Management,10.0
+Packaging Materials & Supplies,0.0
+Electronic & Electrical Parts & Components,9.0
+Translation & Language Services,3.0
+Snow Removal,0.0
+Mold Remediation,0.0
+Pre-Cast Concrete,1.0
+Diving,0.0
+Structural Steel,2.0
+Metal Buildings,0.0
+Navigation Equipment,1.0
+Photovoltaic,2.0
+Lead Paint Abatement ,0.0
+Retaining Walls,2.0
+"Autos - Electric, Hybrid, Hydrogen, Natural Gas, Multi-Fuel",2.0
+Passenger Shelter (Bus Shelter),4.0
+Trailer,3.0
+ Chillers & Refrigeration Install & Maint.,10.0
+Hazardous Material Removal/ Storage/ Processing,3.0
+Water-Proofing,0.0
+Locksmith Services,1.0
+Geothermal / Geoexchange Heating & Cooling,0.0
+Marine Services,0.0
+Private Investigation / Background Checks,5.0
+Equipment/ Non-Construction,0.0
+Auction Services,0.0
+Fire Extinguisher/ Sales/ Service/ Inspection,1.0
+Appliances -Stove/Refrigerator/Washer/Dryer,1.0
+Batteries,1.0
+Fueling Systems,1.0
+Wet Well Cleaning & Rehab,0.0
+Golf,10.0
+Ground Penetrating Radar,1.0
+Sub-Surface Investigation / Engineering / Mapping,0.0
+Concrete & Asphalt Cutting,2.0
+Valves & Fittings,9.0
+Web Design Services,6.0
+Aerial Mapping/Photography & Surveying,1.0
+ADA Compliance Work / Products,23.0
+Generator/ Over 10KW,3.0
+Trucks/ Over 30K GVW,0.0
+Parts for Heavy Eqpt.,3.0
+Call Center - Business Process Outsourcing (BPO),0.0
+Trench Shoring ,0.0
+Towing/ Emergency Road Svcs,8.0
+Research & Development,1.0
+Educational Materials & Supplies,4.0
+Fire Fighting & Emergency Eqpt. & Vehicles,0.0
+"Dozer (Bull-Dozer,Crawler Tractor)",1.0
+Excavator/ Track or Wheel,3.0
+Loader/ Skid Steer or Compact ,0.0
+Excavator/Heavy/Mini,1.0
+Backhoe Loader  / Loader Tool Carrier,1.0
+Sweeping Machines,0.0
+Air Compressor/ 80 CFM & Larger,2.0
+Fork Lift (Lift Truck),3.0
+Truck/ Articulated & Off-Road,0.0
+Telescopic Handlers,0.0
+Bucket Trucks / Man Lifts,2.0
+Generator/Under 10KW,2.0
+Tractors for Agriculture & Mowing,1.0
+Tools/Power & Hand Operated,2.0
+Loader,1.0
+Crane/ Stationary,0.0
+Crane/ Mobile,0.0
+Crane Truck Mounted,0.0
+Construction Eqpt. Accessories & Parts,2.0
+Vacuum Truck or Trailer / Vacuum Excavator,1.0
+Paving,1.0
+Horizontal Boring & Tunneling Eqpt. & Tooling,0.0
+Dredge,0.0
+Chipper/ Shredder/Stump Grinder & Cutter,1.0
+Mole/ Pneumatic or Hyd Hammer/ Pipe Burster,0.0
+Trencher,0.0
+Crane/ Bridge,0.0
+Other Equipment,5.0
+Transformers for Electrical Power Trans / Distrib.,0.0
+Agricultural & Landscaping Eqpt. ,3.0
+All Terrain & Recreational Vehicles (ATV),0.0
+Forestry & Logging Equipment,0.0
+Scraper,0.0
+Passenger Bus,1.0
+Compactor,1.0
+Grader,1.0
+Refuse Truck,0.0
+Railway Equipt,0.0
+Snow Removal Equipment,1.0
+Exhaust / Fumes Extraction,0.0
+Laundry & Dry Cleaning,1.0
+Gas & Oil Transmission Pipeline,0.0
+Paint & Coatings,1.0
+Storage Locker,1.0
+Gabion Installation & Maintenance,1.0
+Bridge - Specialty,1.0
+Meter - Water/ Gas/ Elec,2.0
+Utility Locating,1.0
+Mowing & Brush Hogging,4.0
+Cleaning & Custodial Supplies & Equipment,1.0
+Energy Efficiency Services,2.0
+Water Line Rehab,0.0
+Fire/ Water/ Chemical Damage Restoration,0.0
+Grain,0.0
+Traffic Studies & Monitoring,2.0
+Hydro-Electric Plant,0.0
+Hydrokinetic Facilities,0.0
+Biomass Plant,0.0
+Abrasive Blasting,0.0
+File Folders-Hangers-Systems-Accessories,0.0
+Label/ Adhesive,0.0
+Electronics Recycling,0.0
+Pipe & Tank Leak Detection,0.0
+Payroll/ Employment Services,0.0
+Medical Facilities Construction & Renovation,1.0
+Archeological Services,0.0
+Oil - Water Separator,0.0
+Fiber Reinforced Polymer (FRP),0.0
+Lateral Rehab,0.0
+Ceiling Installation & Repair,7.0
+Intelligent Transportation Systems,1.0
+Video Production & Editing,0.0
+Pipe Insulation,0.0
+Emergency Preparedness Consulting,3.0
+Document Management & Destruction,2.0
+Railway Crossing,1.0
+Pipe - Culvert,4.0
+Cleaning - Industrial,0.0
+Fiber Structural Reinforcing,0.0
+Spiral-Wound Pipe Lining,0.0
+CIPP - UV Light Cured,0.0
+Motor/ Electric,3.0
+Musical Instruments/ Eqpt & Supplies,2.0
+Climate Adaptation & Sustainability Consulting,0.0
+Road Salt/ Ice & Dust Control Chemicals,1.0
+Awards/ Trophies/ Pins & Promotional Items,1.0
+Synthetic Turf & Artificial Ground Coverings,1.0
+Pedestrian/Cycle Trails & Walkways,5.0
+Rectangular Rapid Flashing Beacon (RRFB),4.0
+Water Treatment Plant,0.0
+Wastewater Treatment Plant,4.0
+Industrial Plant Work,0.0
+Storm / Disaster Cleanup & Repair,3.0
+Trenchless Point Repair,0.0
+Carbon-Fiber Composite Cable (CFCC) ,0.0
+Water Tank Demolition / Removal,0.0
+Lighting - Airport,0.0
+Force & Blast Protection / Surface Hardening,0.0
+Dock/ Pier/ Wharf/ Marina,2.0
+Floating Structures,2.0
+Seismic Upgrade & Rehab,0.0
+Aircraft - Unmanned (Drone),0.0
+Pipe Strengthening,0.0
+Pipe Abandonment,3.0
+Lobbyist & Advocacy Services,0.0
+Armored Vehicles,0.0
+Lighting - Stadium / Arena,0.0
+Lighting - Outdoor,13.0
+Lighting - Roadway,9.0
+Lighting - Marine,0.0
+Manhole Lining - Cured-in-Place,0.0
+Manhole/Wetwell Lining - Cementitious,12.0
+Manhole/Wetwell Lining - Epoxy,12.0
+Pharmaceuticals (Drugs),0.0
+Streetscape Work,2.0
+Fire Hydrant,3.0
+Pipe - Steel Casing,1.0
+Food for Animals,0.0
+Travel & Tourism Services,0.0
+Vending Machine Rental - Sales - Service,0.0
+Cement Stabilized Flowable Fill / Geotech Grout ,0.0
+Pipe - Copper,0.0
+Pipe - Plastic-Metal Composite,0.0
+Material & Eqpt. Testing/ Insp. & Calib.,2.0
+Spill Control Products,0.0
+Spill Control Equipment,0.0
+Fiber Reinforced Polymer (FRP) Products,0.0
+Uninterruptable Power Supply (UPS)/Battery Backup,1.0
+"Surety Bonds (Construction, Commercial & Judicial)",0.0
+Culvert Rehab,0.0
+Facilities Commissioning,0.0
+Lightning Protection,1.0
+Social Services,3.0
+Appraisal Services (non-real estate),6.0
+Concrete Protective Lining,0.0
+Sidewalk Const. & Repair,28.0
+Air Transportation,0.0
+Cemetery & Memorial Work & Maintenance,0.0
+Caskets/ Columbarium & Funerary Products & Services,0.0
+Signalization,5.0
+Fasteners,2.0
+Pipe - Ductile Iron Restrained Joint,1.0
+Decal/Adhesive,0.0
+Consulting,24.0
+Athletic,5.0
+Wood Milling,1.0
+Historical Preservation,0.0
+Parking Management & Valet Svcs,0.0
+Audio-Visual Systems,1.0
+Buoys/ Marine Markers & Signage,0.0
+Toner & Ink for Printers & Copiers,0.0
+Fall Protection Eqpt & Svcs,0.0
+Electrical Wire & Cable,0.0
+Veterinary Services,0.0
+Rammed Aggregate Piers,0.0
+Photography & Graphic Arts,0.0
+Simulation Hardware & Software,0.0
+Underwater Imaging & Surveying,0.0
+Flags & Cloth Banners,0.0
+Conveyor Equipment/ Parts & Service,0.0
+Gas,0.0
+Welding Eqpt. & Supplies,2.0
+Earthmoving & Earthworks,1.0
+PEX/PP/PB Pipe & Fittings,1.0
+Mineral Extraction Rights,0.0
+Caisson,0.0
+Real Estate Wanted for Lease or Rental,4.0
+Real Estate Brokerage Services,0.0
+Real Estate Appraisal Services,3.0
+Food Service Supplies,1.0
+Window Washing/Cleaning,1.0
+Writing/ Journalism/ Content Creation,0.0
+Tents & Temporary Structures,1.0
+Electronics Design & Prototyping,0.0
+Electronics Manufacture,0.0
+Emissions Monitoring,0.0
+Event Hosting/ Planning & Management,1.0
+Tires and Wheels,2.0
+Aircraft Service - Fixed Base Operations (FBO),0.0
+Transcription Services,2.0
+Rain Barrel,0.0
+Sign/ Electronic,1.0
+Pallet for Shipping & Storage,0.0
+Waste to Energy Systems,0.0
+Emissions Control Systems,0.0
+Interior Design / Decoration,0.0
+Gas & Oil Well Decommission,0.0
+Mail/Email Lists & Mailing/Emailing,0.0
+Ground Transportation Services,1.0
+Bike & Car Share Systems & Programs,0.0
+Rumble Strip Milling ,2.0
+Incinerator Const. & Maint. ,0.0
+Drone Services,0.0
+Construction & Industrial Inspection Services,1.0
+Metal Machining Equipment/ Tools & Parts,0.0
+Septic System Installation,0.0
+Armored Vehicle Services,1.0
+Electric Vehicle Charging Station,0.0
+Goods/Services for Barter,0.0
+Scrap Metal Salvage & Recycling,1.0
+Transit Passenger Vehicle,0.0
+Adhesives & Sealants,1.0
+Building Elevation/ Raising,0.0
+Water Damage Repair and Restoration,3.0
+Weather Monitoring Station,0.0
+Cyber Security,0.0
+Pipe - Stainless Steel,0.0
+Carbon/ Activated,1.0
+Electric Vehicle,0.0
+Custom Vehicles/Vehicle Alteration,0.0
+Soil Stabilization,0.0
+Athletic & Park Facilities,10.0
+Concrete Materials,7.0
+ Asphalt,7.0
+ Gravel,7.0
+ Recreation & Sports Eqpt. & Supplies,5.0
+ Maint. & Service,1.0
+Sodding & Mulching,22.0
+Track or Wheeled,1.0
+ Milling & Hwy Const. Eqpt.,1.0
+ Jetty Const. & Maint.,2.0
+ Custodial & Cleaning,3.0
+ Galvanized Steel,2.0
+Pilot Car ,11.0
+Flagging,11.0
+Traffic Control,11.0
+ Chillers & Refrigeration Eqpt.,3.0
+ Polyethylene,3.0
+Maint & Removal,0.0
+Compressed,0.0
